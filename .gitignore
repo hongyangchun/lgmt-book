@@ -1,0 +1,5 @@
+# 忽略未必要的临时文件与日志
+.DS_Store
+*.log
+.workbuddy/
+!outputs/
