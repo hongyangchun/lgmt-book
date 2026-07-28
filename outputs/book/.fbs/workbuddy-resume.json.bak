@@ -1,0 +1,55 @@
+{
+  "$schema": "fbs-session-resume-v1",
+  "snapshotSource": "defaults-empty",
+  "missingArtifacts": [
+    "esm-state.md",
+    "chapter-status.md"
+  ],
+  "currentStage": "S0",
+  "lastAction": null,
+  "nextSuggested": "完成情报收集，进入 S1 需求确认",
+  "nextRecommendations": "完成情报收集，进入 S1 需求确认",
+  "bookTitle": null,
+  "wordCount": 0,
+  "chapterCount": 0,
+  "completedCount": 0,
+  "dataCompatVersion": "resume-v1",
+  "updatedAt": "2026-07-24T10:47:23.161Z",
+  "kpi": {
+    "resumeSnapshotFresh": true,
+    "schemaStable": true,
+    "compatibilityMode": false
+  },
+  "gitAvailable": false,
+  "modifiedFiles": [
+    "/Users/hongyangchun/Codebase/default/outputs/book/.fbs/index/book-snippet.json",
+    "/Users/hongyangchun/Codebase/default/outputs/book/.fbs/smart-memory/book-memory-snapshot.json",
+    "/Users/hongyangchun/Codebase/default/outputs/book/.fbs/smart-memory/book-memory-snapshot.json.bak",
+    "/Users/hongyangchun/Codebase/default/outputs/book/.fbs/smart-memory/session-resume-brief.md",
+    "/Users/hongyangchun/Codebase/default/outputs/book/.fbs/smart-memory/session-resume-brief.md.bak",
+    "/Users/hongyangchun/Codebase/default/outputs/book/.fbs/workbuddy-resume.json",
+    "/Users/hongyangchun/Codebase/default/outputs/book/.fbs/workbuddy-resume.json.bak"
+  ],
+  "gitWorkspaceHint": "书稿根下无 .git：无法自动列出变更文件；请在会话摘要中人工记录本次修改列表。",
+  "benefitSnapshot": {
+    "benefitSource": "local_cache",
+    "memberTier": "T1",
+    "creditsState": "available",
+    "localLedgerBalance": 110,
+    "serviceTransport": "direct",
+    "serviceAvailable": true,
+    "serviceWhoamiStatus": 200,
+    "serviceBindingId": "srv_4c56dd273b6c",
+    "anonymousUserCodeHash": "anon_00ee8eaa45",
+    "scenePackId": "general",
+    "nextTool": "fbs_scene_pack_query",
+    "lebaoStatus": {
+      "available": true,
+      "statusCode": 200,
+      "pointsBalance": null,
+      "claimState": null,
+      "voucherCount": 0
+    },
+    "warnings": []
+  }
+}

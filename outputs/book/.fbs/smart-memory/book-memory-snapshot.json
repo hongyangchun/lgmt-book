@@ -1,0 +1,23 @@
+{
+  "_schema": "book-memory-snapshot-v1",
+  "_generated": "2026-07-28T05:00:17.576Z",
+  "_bookRoot": "/Users/hongyangchun/Codebase/default/outputs/book",
+  "profileId": null,
+  "version": "2.0.2",
+  "bookContext": {
+    "bookName": null,
+    "currentChapter": null,
+    "glossaryTerms": [],
+    "chapterCount": 0
+  },
+  "learnedStyle": {
+    "tone": {},
+    "vocabulary": {},
+    "sentenceStructure": {}
+  },
+  "userPreferences": null,
+  "workContext": null,
+  "adaptationMode": "balanced",
+  "totalLearningSessions": 0,
+  "lastUpdated": null
+}

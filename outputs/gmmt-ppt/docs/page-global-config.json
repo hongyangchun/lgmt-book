@@ -1,0 +1,14 @@
+{
+  "slideStyle": "chinese",
+  "colorScheme": "中式水墨 · 宣纸朱砂",
+  "primaryColor": "#9E2A2B",
+  "accentColor1": "#1F3A5F",
+  "accentColor2": "#C9A227",
+  "neutralColor": "#4A4A4A",
+  "background": {
+    "type": "color",
+    "value": "#F6F0E2"
+  },
+  "fontTitle": "'Noto Serif SC', serif",
+  "fontBody": "'Noto Sans SC', sans-serif"
+}

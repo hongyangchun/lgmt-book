@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMMT 模型深度解读课程</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #9E2A2B;
+            --accent-color-1: #1F3A5F;
+            --accent-color-2: #C9A227;
+            --neutral-color: #4A4A4A;
+            --slide-background: #F6F0E2;
+            --font-title: 'Noto Serif SC', serif;
+            --font-body: 'Noto Sans SC', sans-serif;
+        }
+    </style>
+    <style>
+        .nav-btn, .page-indicator {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-page" style="position: relative; height: 810px; width: 1440px; overflow: hidden; background: var(--slide-background); background-size: cover; background-position: center; background-repeat: no-repeat; font-family: 'Noto Sans SC',sans-serif">
+  <div style="position: absolute; left: 0px; top: 0px; height: 0.5rem; width: 100%; background-color: rgb(158 42 43 / 1)"></div>
+  <div style="position: absolute; right: 3rem; top: 2.5rem; display: flex; height: 3rem; width: 3rem; align-items: center; justify-content: center; background-color: rgb(158 42 43 / 1); font-size: 0.875rem; line-height: 1.25rem; color: rgb(255 255 255 / 1); writing-mode: vertical-rl; font-family: 'Noto Serif SC',serif">伍</div>
+  <div style="display: flex; height: 100%; flex-direction: column; padding-left: 4rem; padding-right: 4rem; padding-bottom: 2.5rem; padding-top: 3rem">
+    <div style="margin-bottom: 0.25rem; font-size: 0.875rem; line-height: 1.25rem; letter-spacing: 0.3em; color: rgb(201 162 39 / 1)">第五幕 · 戒它</div>
+    <h1 style="font-size: 2.25rem; line-height: 2.5rem; font-weight: 700; color: rgb(158 42 43 / 1); font-family: 'Noto Serif SC',serif">局限与谬误光谱</h1>
+    <div style="margin-top: 0.75rem; margin-bottom: 0.75rem; height: 3px; width: 6rem; background-color: rgb(201 162 39 / 1)"></div>
+    <div style="display: grid; flex: 1 1 0%; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1.25rem">
+      <div style="display: flex; flex-direction: column; gap: 0.75rem">
+        <p style="font-size: 0.875rem; line-height: 1.25rem; font-weight: 700; color: rgb(74 74 74 / 1)">适用光谱</p>
+        <div style="border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-left-width: 4px; border-color: rgb(47 125 50 / 1); background-color: rgb(47 125 50 / 0.15); padding-left: 1rem; padding-right: 1rem; padding-top: 0.75rem; padding-bottom: 0.75rem"><p style="font-size: 0.875rem; line-height: 1.25rem; font-weight: 700; color: rgb(47 125 50 / 1)">绿 · 高度适用</p><p style="font-size: 0.75rem; line-height: 1rem; color: rgb(74 74 74 / 1)">成就型/可分解任务 → 严格自上而下成立</p></div>
+        <div style="border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-left-width: 4px; border-color: rgb(201 162 39 / 1); background-color: rgb(201 162 39 / 0.2); padding-left: 1rem; padding-right: 1rem; padding-top: 0.75rem; padding-bottom: 0.75rem"><p style="font-size: 0.875rem; line-height: 1.25rem; font-weight: 700; color: rgb(154 123 18 / 1)">黄 · 审慎使用</p><p style="font-size: 0.75rem; line-height: 1rem; color: rgb(74 74 74 / 1)">目标需涌现 → 先用 Cynefin 判域，必要时改探针法</p></div>
+        <div style="border-top-right-radius: 0.25rem; border-bottom-right-radius: 0.25rem; border-left-width: 4px; border-color: rgb(158 42 43 / 1); background-color: rgb(158 42 43 / 0.15); padding-left: 1rem; padding-right: 1rem; padding-top: 0.75rem; padding-bottom: 0.75rem"><p style="font-size: 0.875rem; line-height: 1.25rem; font-weight: 700; color: rgb(158 42 43 / 1)">红 · 危险误导</p><p style="font-size: 0.75rem; line-height: 1rem; color: rgb(74 74 74 / 1)">关系/意义/审美 → 该放下的是「用框架」本身</p></div>
+      </div>
+      <div style="display: flex; flex-direction: column">
+        <p style="margin-bottom: 0.5rem; font-size: 0.875rem; line-height: 1.25rem; font-weight: 700; color: rgb(74 74 74 / 1)">六大局限</p>
+        <div style="display: grid; flex: 1 1 0%; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 0.5rem; font-size: 0.75rem; line-height: 1rem; color: rgb(74 74 74 / 1)">
+          <div style="border-radius: 0.25rem; background-color: rgb(255 255 255 / 0.6); padding-left: 0.75rem; padding-right: 0.75rem; padding-top: 0.5rem; padding-bottom: 0.5rem">① 目标涌现</div>
+          <div style="border-radius: 0.25rem; background-color: rgb(255 255 255 / 0.6); padding-left: 0.75rem; padding-right: 0.75rem; padding-top: 0.5rem; padding-bottom: 0.5rem">② 分析瘫痪</div>
+          <div style="border-radius: 0.25rem; background-color: rgb(255 255 255 / 0.6); padding-left: 0.75rem; padding-right: 0.75rem; padding-top: 0.5rem; padding-bottom: 0.5rem">③ 琐碎过度工程</div>
+          <div style="border-radius: 0.25rem; background-color: rgb(255 255 255 / 0.6); padding-left: 0.75rem; padding-right: 0.75rem; padding-top: 0.5rem; padding-bottom: 0.5rem">④ 目标冲突</div>
+          <div style="border-radius: 0.25rem; background-color: rgb(255 255 255 / 0.6); padding-left: 0.75rem; padding-right: 0.75rem; padding-top: 0.5rem; padding-bottom: 0.5rem">⑤ Lens 精英主义</div>
+          <div style="border-radius: 0.25rem; background-color: rgb(255 255 255 / 0.6); padding-left: 0.75rem; padding-right: 0.75rem; padding-top: 0.5rem; padding-bottom: 0.5rem">⑥ 文化/组织适配</div>
+        </div>
+        <p style="margin-top: 0.5rem; font-size: 0.75rem; line-height: 1rem; color: rgb(138 130 112 / 1)"><span style="font-weight: 600; color: rgb(158 42 43 / 1)">七大谬误：</span>锤子 / 成就殖民 / 展示篡发现 / 层级傲慢 / 目标稳定幻觉 / 线性因果 / 测量塌缩。</p>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

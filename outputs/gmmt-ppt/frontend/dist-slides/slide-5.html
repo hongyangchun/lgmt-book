@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GMMT 模型深度解读课程</title>
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif+SC:wght@400;600;700;900&family=Noto+Sans+SC:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+    <style>
+        :root {
+            --primary-color: #9E2A2B;
+            --accent-color-1: #1F3A5F;
+            --accent-color-2: #C9A227;
+            --neutral-color: #4A4A4A;
+            --slide-background: #F6F0E2;
+            --font-title: 'Noto Serif SC', serif;
+            --font-body: 'Noto Sans SC', sans-serif;
+        }
+    </style>
+    <style>
+        .nav-btn, .page-indicator {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+<div class="slide-page" style="position: relative; height: 810px; width: 1440px; overflow: hidden; background: var(--slide-background); background-size: cover; background-position: center; background-repeat: no-repeat; font-family: 'Noto Sans SC',sans-serif">
+  <div style="position: absolute; left: 0px; top: 0px; height: 0.5rem; width: 100%; background-color: rgb(158 42 43 / 1)"></div>
+  <div style="position: absolute; right: 3rem; top: 2.5rem; display: flex; height: 3rem; width: 3rem; align-items: center; justify-content: center; background-color: rgb(158 42 43 / 1); font-size: 0.875rem; line-height: 1.25rem; color: rgb(255 255 255 / 1); writing-mode: vertical-rl; font-family: 'Noto Serif SC',serif">壹</div>
+  <div style="display: flex; height: 100%; flex-direction: column; padding-left: 5rem; padding-right: 5rem; padding-bottom: 2.5rem; padding-top: 3.5rem">
+    <div style="margin-bottom: 0.25rem; font-size: 0.875rem; line-height: 1.25rem; letter-spacing: 0.3em; color: rgb(201 162 39 / 1)">第一幕 · 懂它</div>
+    <h1 style="font-size: 2.25rem; line-height: 2.5rem; font-weight: 700; color: rgb(158 42 43 / 1); font-family: 'Noto Serif SC',serif">不可本末倒置</h1>
+    <div style="margin-top: 1rem; margin-bottom: 1rem; height: 3px; width: 6rem; background-color: rgb(201 162 39 / 1)"></div>
+    <p style="margin-bottom: 1rem; font-size: 1rem; line-height: 1.5rem; color: rgb(74 74 74 / 1)"><span style="font-weight: 600; color: rgb(158 42 43 / 1)">本</span>=Goal+Lens（effectiveness）；<span style="font-weight: 600; color: rgb(31 58 95 / 1)">末</span>=Method+Tool（efficiency）。颠倒＝用效率替代效能、用手段替代目的。</p>
+    <div style="display: grid; flex: 1 1 0%; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem">
+      <div style="border-radius: 0.25rem; border-left-width: 4px; border-color: rgb(158 42 43 / 1); background-color: rgb(255 255 255 / 0.6); padding: 1.25rem"><p style="font-size: 1.125rem; line-height: 1.75rem; font-weight: 700; color: rgb(158 42 43 / 1)">① 工具先行</p><p style="margin-top: 0.5rem; font-size: 0.875rem; line-height: 1.625; color: rgb(74 74 74 / 1)">先买 Notion / 上 AI / 上 ERP，再想为什么。</p></div>
+      <div style="border-radius: 0.25rem; border-left-width: 4px; border-color: rgb(31 58 95 / 1); background-color: rgb(255 255 255 / 0.6); padding: 1.25rem"><p style="font-size: 1.125rem; line-height: 1.75rem; font-weight: 700; color: rgb(31 58 95 / 1)">② 方法仪式化</p><p style="margin-top: 0.5rem; font-size: 0.875rem; line-height: 1.625; color: rgb(74 74 74 / 1)">照搬 OKR / 敏捷 / 复盘会，却说不清为何适配。</p></div>
+      <div style="border-radius: 0.25rem; border-left-width: 4px; border-color: rgb(201 162 39 / 1); background-color: rgb(255 255 255 / 0.6); padding: 1.25rem"><p style="font-size: 1.125rem; line-height: 1.75rem; font-weight: 700; color: rgb(201 162 39 / 1)">③ 思维模型收藏癖</p><p style="margin-top: 0.5rem; font-size: 0.875rem; line-height: 1.625; color: rgb(74 74 74 / 1)">囤「第一性原理」「复利」当标签，从不回到 Goal。</p></div>
+      <div style="border-radius: 0.25rem; border-left-width: 4px; border-color: rgb(158 42 43 / 1); background-color: rgb(255 255 255 / 0.6); padding: 1.25rem"><p style="font-size: 1.125rem; line-height: 1.75rem; font-weight: 700; color: rgb(158 42 43 / 1)">④ 目标置换（最隐蔽）</p><p style="margin-top: 0.5rem; font-size: 0.875rem; line-height: 1.625; color: rgb(74 74 74 / 1)">用代理指标代替真目标——Goodhart 定律。</p></div>
+    </div>
+    <div style="margin-top: 1rem; border-radius: 0.25rem; background-color: rgb(31 58 95 / 0.1); padding-left: 1.5rem; padding-right: 1.5rem; padding-top: 0.75rem; padding-bottom: 0.75rem">
+      <p style="font-size: 0.875rem; line-height: 1.625; color: rgb(31 58 95 / 1)"><span style="font-weight: 700">后果链：</span>错误方向高效运行 → 沉没成本绑定 → 努力与结果脱节 → 工具成目的 → 环境一变即崩溃（无规律兜底）。深层代价是<span style="color: rgb(158 42 43 / 1)">认知惰性</span>。</p>
+    </div>
+  </div>
+</div>
+</body>
+</html>

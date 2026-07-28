@@ -1,0 +1,1 @@
+{"v":1,"ts":"2026-07-28T05:00:17.583Z","event":"session_exit","script":"session-exit.mjs","exitCode":0,"skillRoot":"/Users/hongyangchun/.workbuddy/skills/fbs-bookwriter","bookRoot":"/Users/hongyangchun/Codebase/default/outputs/book","payloadSummary":{"currentStage":"S0","bookTitle":null,"wordCount":0}}
